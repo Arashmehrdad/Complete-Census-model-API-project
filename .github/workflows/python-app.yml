@@ -34,6 +34,10 @@ jobs:
             starter/tests \
             --extend-ignore=E501
 
+      - name: Train model artifacts
+        run: |
+          python -m starter.starter.train_model
+
       - name: Test with pytest
         run: |
           python -m pytest starter/tests -v
