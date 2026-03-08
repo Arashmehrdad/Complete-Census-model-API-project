@@ -4,6 +4,7 @@
 
 This is my post-project write-up for the Udacity Machine Learning DevOps Engineer Nanodegree. It captures my final notes and setup instructions after completing the project.
 
+
 ## Notes
 
 Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or WSL2 is recommended.
@@ -73,3 +74,7 @@ Create a RESTful API using FastAPI. This must implement:
   * Hint: development in Python is fast, but iteration slows if you rely on CI/CD to fail before fixing an issue. Run flake8 locally before committing.
   * Note: Install flake8 separately if needed: `pip install flake8`
 * Write a script that uses the requests module to do one POST on your live API.
+
+## Author
+
+Arash Mehrdad
